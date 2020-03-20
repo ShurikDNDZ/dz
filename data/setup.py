@@ -2,6 +2,7 @@ import os
 from PIL import Image, ImageTk
 
 PATH = os.path.dirname(os.path.dirname(__file__))
+
 def load_image(name):
     location = os.path.join(PATH, 'resources', 'icons', name)
     image = Image.open(location)
